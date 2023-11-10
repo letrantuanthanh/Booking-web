@@ -1,0 +1,57 @@
+.product-wrapper {
+  padding: 20px;
+}
+
+.product-header {
+  border: 1px solid #f5f5f5;
+  box-shadow: 5px 5px 5px #cdcdcd;
+  padding: 10px;
+  color: #8a8989;
+}
+
+.form .hotel-room {
+  grid-area: area;
+}
+
+.form {
+  margin: 40px 0;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: ". ." ". ." ". ." ". ." ". ." "area area";
+  gap: 40px;
+}
+
+.form p {
+  margin: 10px 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.form input:focus {
+  border: unset;
+}
+
+.form textarea {
+  width: 100%;
+}
+
+.hotel-room select {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.form .btn-submit {
+  width: fit-content;
+  padding: 10px 30px;
+  font-size: 18px;
+  background-color: #00b998;
+  color: #fff;
+  border: 1px solid #00b998;
+}

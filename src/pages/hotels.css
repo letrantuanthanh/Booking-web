@@ -1,0 +1,97 @@
+.hotels-content {
+  border: 1px solid #f5f5f5;
+  box-shadow: 5px 5px 5px #cdcdcd;
+  padding: 40px 20px;
+}
+
+.hotels-content .title {
+  font-size: 20px;
+  color: #8a8989;
+  margin-bottom: 10px;
+}
+
+.hotels-content table {
+  width: 100%;
+}
+
+table .btn-delete {
+  background-color: unset;
+  padding: 8px;
+  border: 0.5px dashed #f92400;
+  border-radius: 4px;
+  color: #f92400;
+}
+
+table .btn-edit {
+  background-color: unset;
+  padding: 8px;
+  border: 0.5px dashed #dcb700;
+  border-radius: 4px;
+  color: #dcb700;
+  margin-right: 10px;
+}
+
+table .first-row {
+  border: 1px solid #d5d5d5;
+}
+
+.hotels-content table,
+td {
+  border: 1px solid #d5d5d5;
+  border-collapse: collapse;
+}
+
+.hotels-content .table th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.hotels-content .table th {
+  padding: 16px 0;
+  font-weight: 500;
+}
+
+.border-left {
+  border: 1px solid #d5d5d5;
+  display: inline;
+  margin-right: 5px;
+}
+
+.pagination {
+  border: 1px solid #d5d5d5;
+  border-top: unset;
+  width: 97.65%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pagination span {
+  margin-right: 10px;
+}
+
+.pagination svg:hover {
+  cursor: pointer;
+}
+
+.hotels-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.hotels-header button {
+  background-color: unset;
+  padding: 8px;
+  border: 0.5px solid #00c400;
+  border-radius: 4px;
+  color: #00c400;
+}
+
+button:hover {
+  cursor: pointer;
+}

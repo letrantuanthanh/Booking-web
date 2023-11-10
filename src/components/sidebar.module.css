@@ -1,0 +1,24 @@
+.sidebar {
+  border-right: 1px solid #d7d7d7;
+  padding: 10px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 10px;
+}
+
+a svg {
+  margin-right: 5px;
+}
+
+.title {
+  color: #515151;
+}
+
+a.navlink span {
+  color: #515151;
+}

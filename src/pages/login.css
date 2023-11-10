@@ -1,0 +1,29 @@
+.auth-container {
+  margin: 80px auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container h1 {
+  margin-bottom: 20px;
+}
+
+.auth-container input {
+  margin: 10px 0;
+  padding: 14px;
+  background-color: #d3e4e4;
+  border-radius: 4px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 4px;
+  background-color: #008bff;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}

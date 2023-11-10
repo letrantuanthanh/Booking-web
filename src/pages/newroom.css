@@ -1,0 +1,64 @@
+.product-wrapper {
+  padding: 20px;
+}
+
+.product-header {
+  border: 1px solid #f5f5f5;
+  box-shadow: 5px 5px 5px #cdcdcd;
+  padding: 10px;
+  color: #8a8989;
+}
+
+.room-form {
+  margin: 40px 0;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}
+
+.room-form p {
+  margin: 10px 0;
+}
+
+.room-form input {
+  width: 100%;
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.room-form input:focus {
+  border: unset;
+}
+
+.room-form textarea {
+  width: 100%;
+}
+
+.hotel-room textarea {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-form select {
+  width: 300px;
+}
+
+.footer-form .btn-submit {
+  width: fit-content;
+  padding: 10px 30px;
+  font-size: 18px;
+  height: fit-content;
+  background-color: #00b998;
+  color: #fff;
+  border: 1px solid #00b998;
+}
