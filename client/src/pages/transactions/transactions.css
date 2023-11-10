@@ -1,0 +1,27 @@
+.transactions-wrapper {
+  margin: 40px 100px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #d3d2d2;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 5px;
+}
+
+.title {
+  background-color: #00a1ff;
+  color: #fff;
+}
+
+.title th {
+  padding: 10px;
+}
